@@ -1,0 +1,23 @@
+/* Reseta todos os estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove decorações de listas e links */
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Configura fontes e altura de linha */
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+}
